@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swipe-nav</title>
+
+    <!-- Link to Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Link to swipe-nav CSS -->
+    <link href="swipe-nav.css" rel="stylesheet">
+
+    <!-- Additional stylesheets go here -->
+
+</head>
+
+<body>
+
+    <nav class="swipe-nav nav-left">
+        <ul>
+            <li class="dropdown1"><a href="#">Home</a>
+                <!–for each dropdown the class needs differect number 1-10 are only supported currently–>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown2"><a href="#">Services</a>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- jQuery (necessary for JavaScript plugins) -->
+    <script src="jquery-2.2.0.min.js"></script>
+
+    <!-- Necessary JS files for swipe-nav components -->
+    <script src="jquery.mobile.custom.min.js"></script>
+    <script src="swipe-nav.js"></script>
+
+    <!-- Additional JS files go here -->
+
+</body>
+
+</html>

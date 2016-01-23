@@ -1,0 +1,172 @@
+/* ****************************** */
+
+
+/*
+
+Collaborators: Emmanuel Martinez
+Version 1.0.0
+Updated on: 01-19-16
+
+Style guide
+
+
+
+/************************************
+  GENERAL STYLING
+************************************/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    line-height: 1.5;
+}
+
+
+/************************************
+  SWIPE NAV CSS/JS COMPONENT
+************************************/
+
+.swipe-nav a {
+    font-size: 1.5em;
+    color: white;
+    line-height: 2em;
+}
+
+.swipe-nav ul {
+    padding-left: 0px;
+}
+
+.swipe-nav li a,
+.swipe-nav h3 {
+    padding-left: 60px;
+}
+
+.dropdown1>a:after,
+.dropdown2>a:after,
+.dropdown3>a:after,
+.dropdown4>a:after,
+.dropdown5>a:after,
+.dropdown6>a:after,
+.dropdown7>a:after,
+.dropdown8>a:after,
+.dropdown9>a:after,
+.dropdown10>a:after,
+.newdrop1>a:after,
+.newdrop2>a:after,
+.newdrop3>a:after,
+.newdrop4>a:after,
+.newdrop5>a:after,
+.newdrop6>a:after,
+.newdrop7>a:after,
+.newdrop8>a:after,
+.newdrop9>a:after,
+.newdrop10>a:after {
+    content: " >";
+}
+
+.swipe-nav li:hover {
+    background: #2CBBBB;
+}
+
+.swipe-nav {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 120%;
+    margin-top: -40px;
+    z-index: 999;
+}
+
+.swipe-icon {
+    background: #2CBBBB;
+    padding: 7.719px 10px;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.swipe-nav ul:first-child {
+    margin-top: 80px;
+}
+
+.idk li a {
+    font-size: 1.2em;
+}
+
+@media screen and (min-width: 550px) {}
+
+
+/* ----- Larger than mobile ----- */
+
+@media (min-width: 400px) {
+    .swipe-nav a {
+        font-size: 1.7em;
+        line-height: 2em;
+    }
+    .idk li {
+        display: inline;
+    }
+    .idk li a {
+        font-size: 1em;
+        line-height: 2em;
+    }
+}
+
+
+/* ----- Larger than phablet ----- */
+
+@media (min-width: 550px) {
+    .swipe-nav a {
+        font-size: 1.9em;
+        line-height: 2em;
+    }
+    .idk li a {
+        font-size: 1.3em;
+        line-height: 1.3em;
+    }
+}
+
+
+/* ----- Larger than tablet ----- */
+
+@media (min-width: 750px) {
+    .swipe-nav a {
+        font-size: 2.3em;
+        line-height: 2.2em;
+    }
+    .idk li a {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+}
+
+
+/* ----- Larger than desktop ----- */
+
+@media (min-width: 1000px) {
+    .swipe-nav a {
+        font-size: 2.5em;
+        line-height: 2.5em;
+    }
+    .idk li a {
+        font-size: 1.7em;
+        line-height: 1.8em;
+    }
+}
+
+
+/* ----- Larger than Desktop HD ----- */
+
+@media (min-width: 1200px) {
+    .swipe-nav a {
+        font-size: 3em;
+        line-height: 2.5em;
+    }
+    .idk li a {
+        font-size: 2em;
+        line-height: 1.8em;
+    }
+}
