@@ -27,6 +27,7 @@ body {
 ************************************/
 
 .swipe-nav a {
+    text-decoration: none;
     font-size: 1.5em;
     color: white;
     line-height: 2em;
